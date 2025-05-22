@@ -1,0 +1,41 @@
+.form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input {
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.errorBox {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.submit {
+  padding: 8px;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
